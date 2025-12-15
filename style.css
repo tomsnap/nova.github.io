@@ -1,56 +1,70 @@
-/* Style général noir et blanc */
+/* Style général */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #000; /* fond noir */
-  color: #fff; /* texte blanc */
+  background-color: #000;
+  color: #fff;
 }
 
-/* Header */
+/* En-tête */
 header {
-  background-color: #111;
-  padding: 15px 30px;
-}
-
-.logo-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #111;
 }
 
 .logo {
   height: 50px;
-  margin-right: 15px;
 }
 
-.brand-name {
-  font-size: 1.5em;
+/* Menu de navigation */
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
   font-weight: bold;
-  color: #fff;
 }
 
-/* Section intro */
-.intro {
-  padding: 50px;
-  text-align: center;
+nav ul li a:hover {
+  text-decoration: underline;
 }
 
-.intro h2 {
+/* Sections */
+main {
+  padding: 40px 20px;
+}
+
+.intro h1 {
   font-size: 2em;
-  margin-bottom: 20px;
-  color: #fff;
+  margin-bottom: 10px;
 }
 
-.intro p {
-  font-size: 1.2em;
-  color: #ccc;
+.about {
+  margin-top: 40px;
 }
 
-/* Footer */
+.about h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Pied de page */
 footer {
-  background-color: #111;
   text-align: center;
   padding: 20px;
+  background-color: #111;
   font-size: 0.9em;
-  color: #aaa;
 }
 
